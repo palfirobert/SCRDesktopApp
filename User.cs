@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SCRDesktopApp
+{
+    internal class User
+    {
+        public string email { get; set; }
+        public string password { get; set; }
+        public User() { }
+        public User(string email, string password) {
+            this.email = email;
+            this.password = password;
+        }
+       
+    }
+}
